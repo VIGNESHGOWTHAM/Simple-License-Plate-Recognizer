@@ -2,11 +2,11 @@ import cv2
 import pytesseract
 import sys
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files (x86)\\Tesseract-OCR\\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files (x86)\\Tesseract-OCR\\tesseract.exe' #install pytesseract for windows and add the path
 
 frameWidth = 640
 frameHeight = 480
-nPlateCascade = cv2.CascadeClassifier("cascade/haarcascade_russian_plate_number.xml")
+nPlateCascade = cv2.CascadeClassifier("cascade/haarcascade_russian_plate_number.xml")  # cascade classifier for license plate recognition
 minArea = 200
 color = (255,0,255)
 
