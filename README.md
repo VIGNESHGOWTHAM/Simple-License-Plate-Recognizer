@@ -13,6 +13,8 @@ Create a empty folder named 'detectedplates'.All the detected license plate imag
 
 
 Then run the puthon script like this in command prompt.
-        python LPRecog.py <inputvideofile.mp4>
+        python LPR.py <inputvideofile.mp4>
         
 The license plate text will be printed on the screen.
+
+press 'q' to interupt the video processing.
